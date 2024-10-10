@@ -1,0 +1,33 @@
+.divider-parent {
+  justify-content: space-between;
+}
+.divider {
+  border-bottom: 1px solid var(--border);
+  margin: var(--divider_border) 0;
+  box-shadow: 1px 1px 1px var(--border);
+  width: 45%;
+  margin-left: calc(-1 * var(--divider));
+  /* margin-right: calc(var(--divider_border) * 0.5); */
+}
+.divider-r {
+  border-bottom: 1px solid var(--border);
+  margin: var(--divider_border) 0;
+  box-shadow: 1px 1px 1px var(--border);
+  width: 45%;
+  margin-right: calc(-1 * var(--divider));
+  /* margin-left: calc(var(--divider_border) * 0.5); */
+}
+@keyframes letter_spacing {
+  0%,
+  100% {
+    letter-spacing: 0px;
+  }
+  50% {
+    letter-spacing: 1px;
+  }
+}
+.main-title {
+  font-size: calc(var(--divider_border) * 0.45);
+  color: #636363;
+  animation: letter_spacing 3s infinite;
+}

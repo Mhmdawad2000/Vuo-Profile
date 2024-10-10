@@ -1,0 +1,244 @@
+:root {
+  /*================
+      The Index  
+  =================*/
+  color: #fff;
+  --primary: #000;
+  --sacnderay: #181816;
+  --border: #3f3f4666;
+
+  --title: #f4f4f5;
+  --subtitle: #a1a1aa;
+
+  --bgheader: #27272a;
+  --blue: #5dbcfc;
+  --border_blue: rgba(45, 212, 191);
+
+  --iconhaver: #0377c5;
+  /*================
+      The Header  
+  =================*/
+  --bx15px: 10px;
+  --bx1px: 1px;
+  --header_flex_nav_box_shadow: rgba(250, 250, 250, 0.15);
+  --header_flex_background_color: #282830ad;
+  --header_fixed_ul_model_box_shadow: #ffffff34;
+  --header_fixed_ul_model_model_li_model_a_background_color: #ffffff34;
+  --h_a_bg_color: #5dbcfc1a;
+  --h_a_border: #5dbcfc4d;
+  --moon_border: #f4a5603f;
+  /*================
+      The Main  
+  =================*/
+
+  --buttonBG: #24252e;
+  --buttonBGactive: #5dbcfc1a;
+  --border_button: #000000;
+
+  --divider: 3rem;
+  --divider_border: 3rem;
+
+  --deg: 0;
+}
+
+.light {
+  /*================
+      The Index
+  =================*/
+  color: #000;
+  --primary: #f0f0f0;
+  --sacnderay: #fff;
+  --border: #cacaca84;
+
+  --title: #27272a;
+  --subtitle: rgb(82, 82, 82);
+
+  --bgheader: rgb(253, 253, 253);
+  --blue: rgb(0, 149, 244);
+  --border_blue: rgba(45, 212, 191);
+
+  --iconhaver: #333;
+
+  /*================
+      The Header  
+  =================*/
+  --bx15px: 15px;
+  --bx1px: 0.1px;
+  --header_flex_nav_box_shadow: rgba(0, 0, 0, 0.15);
+  --header_fixed_ul_model_model_li_model_a_background_color: #bcc9ff86;
+  --h_a_bg_color: #4e626e7c;
+  --h_a_border: #575757f1;
+  
+  /*
+  --header_flex_background_color: #282830ad;
+  --header_fixed_ul_model_box_shadow: #ffffff34;
+  --moon_border: #f4a5603f; */
+
+  /*================
+      The Main  
+  =================*/
+  --border_button: #000000;
+  --buttonBG: rgb(179, 184, 243);
+  --buttonBGactive: rgb(121, 124, 165);
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+  letter-spacing: 0.4px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: var(--primary);
+  color: #fff;
+}
+.border {
+  border: 2px solid red;
+}
+
+.container {
+  background-color: var(--sacnderay);
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--divider);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+  transition: 0.2s;
+}
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+button:active {
+  scale: 0.95;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+
+    --divider: 1.7rem;
+    --divider_border: 2.3rem;
+  }
+}
+@media (max-width: 600px) {
+  body,
+  .container {
+    width: 100%;
+    --divider_border: 1.7rem;
+  }
+
+  .scrollbar-top {
+    background-color: #00497a;
+    opacity: 0.5;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    bottom: 5rem;
+    right: 2%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 01rem;
+}
+::-webkit-scrollbar-track {
+  border: 7px solid var(--border);
+  box-shadow: inset 0 0 2.5px 2px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    90deg,
+    var(--sacnderay),
+    var(--bgheader),
+    var(--sacnderay)
+  );
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    270deg,
+    var(--bgheader),
+    var(--sacnderay),
+    var(--bgheader)
+  );
+}
+html {
+  scrollbar-color: var(--sacnderay) var(--bgheader) var(--sacnderay);
+}
+.scrollbar-top {
+  font-size: 1.7rem;
+  background-color: #00497a;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  color: var(--subtitle);
+  text-align: center;
+  position: fixed;
+  bottom: 5rem;
+  right: 2%;
+  transition: 01.8s;
+}
+
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
+.scrollbar-top:hover {
+  background-color: #0377c5;
+}

@@ -20,5 +20,5 @@ export default {
 };
 </script>
 <style lang="css">
-@import "@/components/6.Divider/TheDivider.css";
+@import "@/components/7.Divider/TheDivider.css";
 </style>

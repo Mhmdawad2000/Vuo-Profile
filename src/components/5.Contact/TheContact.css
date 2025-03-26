@@ -20,14 +20,14 @@ section.contact-us .title {
   }
 }
 section.contact-us .border-animation {
-  padding: 3px;
+  padding: 20px;
   border-radius: 10px;
   animation: animationBorder 4s linear infinite, animationRotate 9s infinite;
 }
 @keyframes animationBorder {
   0%,
   100% {
-    box-shadow: 0px 0px 3px inset #0099ff13;
+    box-shadow: 0px 0px 3px inset #0099ffa2;
   }
   50% {
     box-shadow: 0px 0px 3px inset transparent;

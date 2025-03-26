@@ -4,6 +4,8 @@
     <TheHero />
     <TheDivider ref="Projects" :text="'Projects'" />
     <TheMain />
+    <TheDivider ref="Contact" :text="'Skills'" />
+    <TheSkills />
     <TheDivider ref="Contact" :text="'Contact Us'" />
     <TheContact />
     <TheDivider ref="Information" :text="'Information'" />
@@ -19,15 +21,17 @@
 import TheHeader from "@/components/1.Header/TheHeader.vue";
 import TheHero from "@/components/2.Hero/TheHero.vue";
 import TheMain from "@/components/3.Main/TheMain.vue";
-import TheContact from "@/components/4.Contact/TheContact.vue";
-import TheFooter from "@/components/5.Footer/TheFooter.vue";
-import TheDivider from "@/components/6.Divider/TheDivider.vue";
+import TheSkills from "@/components/4.Skills/TheSkills.vue";
+import TheContact from "@/components/5.Contact/TheContact.vue";
+import TheFooter from "@/components/6.Footer/TheFooter.vue";
+import TheDivider from "@/components/7.Divider/TheDivider.vue";
 
 export default {
   components: {
     TheHeader,
     TheHero,
     TheMain,
+    TheSkills,
     TheContact,
     TheFooter,
     TheDivider,

@@ -6,23 +6,26 @@
           <span class="icon-envelope"></span>
           Contact us
         </h1>
-        <p class="sub-title">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
       </div>
       <div class="down-section flex">
         <div class="border-animation">
-          <form action="" class="left-section">
-            <div class="flex">
-              <label for="email">Email Addreess:</label>
-              <input required type="email" name="email" id="email" />
+          <div action="" class="left-section">
+            <div style="color: gray; font-size: 20px">
+              <span
+                style="margin: 1rem; font-size: 17px"
+                class="icon-envelope"
+              ></span
+              ><span style="font-size: 12px">muhamedawad2000@gmail.com</span>
             </div>
-            <div style="margin-top: 24px" class="flex">
-              <label for="textarea">Your Message:</label>
-              <textarea required name="textarea" id="textarea"></textarea>
+            <div style="color: gray; font-size: 20px">
+              <span style="margin: 1rem" class="icon-mobile"></span
+              ><span>+963 998410169</span>
             </div>
-            <button class="submit">Submit</button>
-          </form>
+            <div style="color: gray; font-size: 20px">
+              <span style="margin: 1rem" class="icon-location2"></span
+              ><span>Damascus,Syria</span>
+            </div>
+          </div>
         </div>
         <div ref="ContactAnimation" class="animation"></div>
       </div>
@@ -50,5 +53,5 @@ export default {
 };
 </script>
 <style lang="css">
-@import "@/components/4.Contact/TheContact.css";
+@import "@/components/5.Contact/TheContact.css";
 </style>

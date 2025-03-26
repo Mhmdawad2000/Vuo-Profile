@@ -9,6 +9,7 @@
         <span>Software </span>
         <span>Engineer </span>
         <span>,FullStack </span>
+        <span>Laravel </span>
         <span>Developer </span>
         <span>,Problems </span>
         <span>Solver </span>
@@ -28,11 +29,24 @@
         complex systems
       </p>
       <div class="icons flex">
-        <div class="icon icon-github"></div>
+        <a
+          target="_blank"
+          class="icon icon-github"
+          href="https://github.com/Mhmdawad2000"
+        ></a>
         <div class="icon icon-linkedin"></div>
-        <div class="icon icon-instagram"></div>
-        <div class="icon icon-facebook"></div>
-        <div class="icon icon-twitter"></div>
+        <a
+          target="_blank"
+          class="icon icon-instagram"
+          href="https://www.instagram.com/mhmdkhyr_wd?igsh=MzNlNGNkZWQ4Mg=="
+        >
+        </a>
+        <a
+          target="_blank"
+          class="icon icon-facebook"
+          href="https://www.facebook.com/share/18nkmjc9ug/"
+        >
+        </a>
       </div>
     </div>
     <div ref="HeroAnimation" class="right-section animation"></div>

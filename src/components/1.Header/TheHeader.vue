@@ -1,31 +1,8 @@
 <template>
   <header class="flex">
-    <button @click="TarggetModel" class="icon-menu menu" />
     <div />
-    <nav>
-      <ul class="flex">
-        <li><a href="">About</a></li>
-        <li><a href="">Articles</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Speaking</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
+
     <button id="ChangeMode" @click="TarggetMode" class="change-mode icon-sun" />
-    <div id="model" class="fixed">
-      <ul class="model">
-        <li>
-          <button @click="TarggetModel" class="icon icon-cross" />
-        </li>
-        <div class="model-box">
-          <li class="model-li"><a class="model-a" href="">About</a></li>
-          <li class="model-li"><a class="model-a" href="">Articles</a></li>
-          <li class="model-li"><a class="model-a" href="">Projects</a></li>
-          <li class="model-li"><a class="model-a" href="">Speaking</a></li>
-          <li class="model-li"><a class="model-a" href="">Contact</a></li>
-        </div>
-      </ul>
-    </div>
   </header>
 </template>
 <script>
